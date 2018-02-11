@@ -49,7 +49,9 @@ div {
 .column {
     display: flex;
     flex-direction: column;
-    margin-right: 32px;}
+    margin-right: 32px;
+    width: 100%;
+    }
 
 .column.large {
   width: 630px;
@@ -65,8 +67,8 @@ div {
 
 .camera {
  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
- width: 632px;
-  height: 302px;
+width:300px;
+  height: 300px;
   margin-top: 0;
   text-align: center;
   font-family: Georgia;
@@ -89,8 +91,8 @@ div {
 
 .earth {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-  width: 632px;
-  height: 302px;
+  width:300px;
+  height: 300px;
   margin-top: 0;
   text-align: center;
   font-family: Georgia;
