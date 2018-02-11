@@ -4,7 +4,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: solid 1px black;
+  border-bottom: solid black 1px;
   width: 100%;
   height: 80px;
 }
@@ -13,6 +13,7 @@ header {
     align-items: center;
     flex-grow: 1;
     padding-left: 30px;
+    border: solid black 1px;
 
 }
 
@@ -31,4 +32,30 @@ nav span {
 
 a {
     color: black;
+}
+div {
+  border: black 1px solid;
+}
+
+.content {
+  display:flex;
+  width: 1232px;
+    margin: 0 auto 78px auto;
+    padding-top: 116px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
