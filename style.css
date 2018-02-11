@@ -120,5 +120,4 @@ background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freel
   display:flex;
   justify-content: space-between;
     margin-top: 17px;
-    align-items:horizontal;
 }
